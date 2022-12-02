@@ -2,6 +2,8 @@
 
 A tool that can save some time by applying prefix to tailwind classes.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4288f722-a61e-48c1-a4d1-2ed2b7c2bc1e/deploy-status)](https://app.netlify.com/sites/tailwind-prefix-tool/deploys)
+
 Using latest tailwind and covers all the major cases regarding prefix mentioned in tailwindcss [docs](https://tailwindcss.com/docs/configuration#prefix)
 
 - Variant modifier
@@ -12,7 +14,7 @@ Using latest tailwind and covers all the major cases regarding prefix mentioned 
 
 ## Demo
 
-Access at https://link.com
+Access at https://tailwind-prefix-tool.netlify.app/
 
 Input
 
@@ -36,4 +38,4 @@ Switch to `node 18` and just run `yarn dev`
 
 ## Raise an Issue
 
-You can open a issue, if any edge case is missing or something goes wrong.
+You can open an issue, if any edge case is missing or something goes wrong!
