@@ -1,30 +1,39 @@
-# tailwind-prefix-tool
+# Tailwind Prefix Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tool that can save some time by applying prefix to tailwind classes.
 
-Currently, two official plugins are available:
+Using latest tailwind and covers all the major cases regarding prefix mentioned in tailwindcss [docs](https://tailwindcss.com/docs/configuration#prefix)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Variant modifier
+- Negatives values
+- Important Specifier
 
-## Expanding the ESLint configuration
+![demo](/public/tw-prefix-tool.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+Access at https://link.com
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Input
+
+```css
+flex w-full hover:text-black-100 mt-8 -mb-4
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Output
+
+```css
+tw-flex tw-w-full hover:tw-text-black-100 tw-mt-8 -tw-mb-4
+```
+
+## Development
+
+Switch to `node 18` and just run `yarn dev`
+
+## Future Roadmap
+
+- Convert to a VSCode Extension
+
+## Raise an Issue
+
+You can open a issue, if any edge case is missing or something goes wrong.
