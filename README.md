@@ -1,6 +1,6 @@
 # Tailwind Prefix Tool
 
-A tool that can save some time by applying prefix to tailwind classes.
+A handy tool to add prefix in tailwind classes and saves you a big time handling naming conflicts in legacy codebases
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4288f722-a61e-48c1-a4d1-2ed2b7c2bc1e/deploy-status)](https://app.netlify.com/sites/tailwind-prefix-tool/deploys)
 
